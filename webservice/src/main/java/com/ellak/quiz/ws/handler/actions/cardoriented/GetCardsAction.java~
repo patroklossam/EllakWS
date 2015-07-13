@@ -37,7 +37,6 @@ public class GetCardsAction extends Action {
 		for(int i=0;i<howMany;i++){
 			int id = Math.abs(rand.nextInt() % cards.size());
 			selectedCards.add((Card) cards.get(id));
-			cards.remove(id);
 		}		
 
 		

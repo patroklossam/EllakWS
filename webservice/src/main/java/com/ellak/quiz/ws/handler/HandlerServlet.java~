@@ -144,7 +144,7 @@ public final class HandlerServlet extends HttpServlet {
                 break;
         }
 
-		if(!method.equals("getCards") && !method.equals("getStats")){
+		if(!method.equals("getCards")||!method.equals("getStats")){
 			try {
 				writeJSON(response, message);
 			} catch (IOException ioe) {

@@ -124,12 +124,12 @@ public class Card {
         this.flag4 = flag4;
     }
 
-    public String getCategory() {
+    public Double getCategory() {
         return category;
     }
 
 
-    public void setCategory(String category) {
+    public void setCategory(Double category) {
         this.category = category;
     }
 

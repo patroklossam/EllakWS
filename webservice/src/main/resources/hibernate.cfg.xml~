@@ -10,8 +10,7 @@
     <property name="hibernate.current_session_context_class">thread</property>
 
     <!-- Mapping with model class containing annotations -->
-    <mapping class="com.ellak.quiz.ws.handler.models.entities.User"/>
-    <mapping class="com.ellak.quiz.ws.handler.models.entities.Card"/>
-    <mapping class="com.ellak.quiz.ws.handler.models.entities.Stat"/>
+    <mapping class="com.ellak.quiz.ws.models.entities.User"/>
+    <mapping class="com.ellak.quiz.ws.models.entities.Card"/>
 </session-factory>
 </hibernate-configuration>

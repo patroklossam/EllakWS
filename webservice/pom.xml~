@@ -7,15 +7,13 @@
   <version>1.0.0</version>
   <name>WebService</name>
   <url>http://maven.apache.org</url>
-
-<repositories>
+  <dependencies>
+    <repositories>
     <repository>
       <id>forplay-legacy</id>
       <url>http://forplay.googlecode.com/svn/mavenrepo</url>
     </repository>
   </repositories>
-  <dependencies>
-    
     <dependency>
       <groupId>commons-dbcp</groupId>
       <artifactId>commons-dbcp</artifactId>
